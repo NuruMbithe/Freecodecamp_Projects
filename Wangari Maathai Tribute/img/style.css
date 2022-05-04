@@ -1,0 +1,97 @@
+@import url('content.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=IM+Fell+English+SC&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+
+:root {
+    --green: #2eb81f;
+    --brown: rgb(145, 76, 31);
+    --white: #fff;
+    --black: #231f20;
+    --grey: #d3d3d3;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#main {
+    font-family: 'Merriweather', sans-serif;
+    font-size: 14px;
+    background-color: var(--green);
+    color: var(--black);
+    width: 100%;
+    margin: 30px 8px;
+    padding: 15px;
+}
+#main-header {
+    font-size: 4 rem;
+    line-height: 1.5;
+    text-align: center;
+}
+
+#title {
+    font-family: 'IM Fell English SC', sans-serif ;
+    color: var(--brown);
+
+}
+img {
+    width: 100%;
+    display: block;
+    height: auto;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#img-div {
+    background: var(--white);
+    padding: 10px;
+    margin: 0;
+}
+
+#img-caption {
+    margin: 15px 0 15px 0;
+    text-align: center;
+}
+
+#headline {
+    font-family: 'IM Fell English SC', sans-serif ;
+    color: var(--brown);
+    margin: 20px;
+    text-align: center;
+}
+
+ul {
+   margin: 0 auto 50px auto; 
+   text-align: left;
+   line-height: 1.5;
+}
+
+li {
+    margin: 16px 40px;
+}
+
+.blockquote {
+    max-width: 600px;
+    margin: 20px;
+    text-align: center;
+}
+
+h3{
+    max-width: 600px;
+    margin: 20px;
+    text-align: left;
+}
+a {
+    text-decoration: none;
+    color: yellowgreen;
+}
+a:visited {
+    color: yellow;
+}
+
+
+/* media queries */
