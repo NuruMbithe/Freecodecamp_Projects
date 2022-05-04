@@ -1,5 +1,4 @@
-# Freecodecamp_Projects
-Responsive Web Design_Projects
+# Responsive Web Design_Projects
 In this section I had the chance to build the following projects and publish them on CodePen:
 
 Build a Tribute Page - See the code - https://codepen.io/NuruMbithe/pen/JjrZVry
