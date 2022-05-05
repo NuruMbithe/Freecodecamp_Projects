@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <form id="survey-form">
+            <h1 id="title"> Survey Form </h1>
+                <!--about-->
+                <section>
+                    <p id="about"> Thank you for taking your time to help in my research. </p>
+                    <div id="survey-form">
+                     <label for="name" id="name-label" class="labels"> Name: </label> 
+                    <div class="right">
+                     <input type="text" id="name" placeholder="John Doe" class="input" required> 
+                    </div>
+            
+                <br><br>
+            
+                     <label for="email" id="email-label" class="labels"> Email: </label>
+                    <div class="right">
+                     <input type="email" id="email" class="input" placeholder="johndoe@gmail.com" required>
+                    </div>
+                    
+                <br><br>
+            
+                     <label for="number" id="number-label" class="labels">  Age: </label>
+                    <div class="right">
+                     <input id="number" class="input" min="16" max="80" type="number" placeholder="Enter your age here">
+                    </div>
+                    <br><br>
+                </section>
+            
+                <!--dropdown-->
+            
+                <section>
+                <label for="unis" class="labels"> University:</label>
+                <div class="right">
+                <select id="dropdown" class="input">
+                    <option disabled value="" selected class="disabled">Select an option</option>
+                    <option value="uni1"> University of Nairobi</option>
+                    <option value="uni2"> Kenyatta University </option>
+                    <option value="uni3"> JKUAT </option>
+                    </select>
+                    </div>
+                    <br>
+                </section>
+              
+            
+                <!-- radiobuttons-->
+            
+                <section>
+                    <label class="labels" for="radio" > Would you recommend your University to a friend? </label>
+                    <ul class="right">
+                    <li class="radio"> <input name="radio-buttons" value="1" type="radio"><label> Yes</label></li>
+                    <li class="radio"><input name="radio-buttons" value="2" type="radio"><label> Maybe</label></li>
+                    <li class="radio"><input name="radio-buttons" value="2" type="radio"><label> No</label></li>
+                    </ul>
+                </section>
+            
+                <!-- checkbox -->
+            
+                <section>
+                    <label for="sports" class="labels"> What would you like to see improved? (check all that apply)</label>
+                    <ul id="sports" style="list-style: none" class="right" >
+                    <li class="checkbox"><label><input type="checkbox"  value="1">  Facilities </label></input></li>
+                    <li class="checkbox"><label><input type="checkbox"  value="2"> Hygiene </label></input></li>
+                    <li class="checkbox"><label><input type="checkbox"  value="3"> WIFI</label></input></li>
+                    </ul>
+                </section>
+            
+                <!-- comments -->
+            
+                <section>
+                    <label for="comment" class="labels"> Any Comments or Suggestions? </label>
+                    <div>
+                    <textarea name="comment" rows="8" columns="80" class="input right" placeholder="Enter comments here..."></textarea>
+                    </div>
+                    <br><br>
+                    <button id="submit" type="submit"> Submit </button>
+                    </div>
+                </section>
+             </form>
+             <footer> </footer>     
+    </body>
+    </html>
+    
